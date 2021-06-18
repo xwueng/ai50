@@ -1,0 +1,56 @@
+tc1: one_gene: set(), two_genes: set(), have_trait: {'James'}
+tc2: one_gene: set(), two_genes: {'Harry'}, have_trait: {'James'}
+tc3: one_gene: set(), two_genes: {'James'}, have_trait: {'James'}
+tc4: one_gene: set(), two_genes: {'Lily'}, have_trait: {'James'}
+tc5: one_gene: set(), two_genes: {'Harry', 'James'}, have_trait: {'James'}
+tc6: one_gene: set(), two_genes: {'Harry', 'Lily'}, have_trait: {'James'}
+tc7: one_gene: set(), two_genes: {'James', 'Lily'}, have_trait: {'James'}
+tc8: one_gene: set(), two_genes: {'Harry', 'James', 'Lily'}, have_trait: {'James'}
+tc9: one_gene: {'Harry'}, two_genes: set(), have_trait: {'James'}
+tc10: one_gene: {'Harry'}, two_genes: {'James'}, have_trait: {'James'}
+tc11: one_gene: {'Harry'}, two_genes: {'Lily'}, have_trait: {'James'}
+tc12: one_gene: {'Harry'}, two_genes: {'James', 'Lily'}, have_trait: {'James'}
+tc13: one_gene: {'James'}, two_genes: set(), have_trait: {'James'}
+tc14: one_gene: {'James'}, two_genes: {'Harry'}, have_trait: {'James'}
+tc15: one_gene: {'James'}, two_genes: {'Lily'}, have_trait: {'James'}
+tc16: one_gene: {'James'}, two_genes: {'Harry', 'Lily'}, have_trait: {'James'}
+tc17: one_gene: {'Lily'}, two_genes: set(), have_trait: {'James'}
+tc18: one_gene: {'Lily'}, two_genes: {'Harry'}, have_trait: {'James'}
+tc19: one_gene: {'Lily'}, two_genes: {'James'}, have_trait: {'James'}
+tc20: one_gene: {'Lily'}, two_genes: {'Harry', 'James'}, have_trait: {'James'}
+tc21: one_gene: {'Harry', 'James'}, two_genes: set(), have_trait: {'James'}
+tc22: one_gene: {'Harry', 'James'}, two_genes: {'Lily'}, have_trait: {'James'}
+tc23: one_gene: {'Harry', 'Lily'}, two_genes: set(), have_trait: {'James'}
+tc24: one_gene: {'Harry', 'Lily'}, two_genes: {'James'}, have_trait: {'James'}
+tc25: one_gene: {'James', 'Lily'}, two_genes: set(), have_trait: {'James'}
+tc26: one_gene: {'James', 'Lily'}, two_genes: {'Harry'}, have_trait: {'James'}
+tc27: one_gene: {'Harry', 'James', 'Lily'}, two_genes: set(), have_trait: {'James'}
+tc1: one_gene: set(), two_genes: set(), have_trait: {'Harry', 'James'}
+tc2: one_gene: set(), two_genes: {'Harry'}, have_trait: {'Harry', 'James'}
+tc3: one_gene: set(), two_genes: {'James'}, have_trait: {'Harry', 'James'}
+tc4: one_gene: set(), two_genes: {'Lily'}, have_trait: {'Harry', 'James'}
+tc5: one_gene: set(), two_genes: {'Harry', 'James'}, have_trait: {'Harry', 'James'}
+tc6: one_gene: set(), two_genes: {'Harry', 'Lily'}, have_trait: {'Harry', 'James'}
+tc7: one_gene: set(), two_genes: {'James', 'Lily'}, have_trait: {'Harry', 'James'}
+tc8: one_gene: set(), two_genes: {'Harry', 'James', 'Lily'}, have_trait: {'Harry', 'James'}
+tc9: one_gene: {'Harry'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc10: one_gene: {'Harry'}, two_genes: {'James'}, have_trait: {'Harry', 'James'}
+tc11: one_gene: {'Harry'}, two_genes: {'Lily'}, have_trait: {'Harry', 'James'}
+tc12: one_gene: {'Harry'}, two_genes: {'James', 'Lily'}, have_trait: {'Harry', 'James'}
+tc13: one_gene: {'James'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc14: one_gene: {'James'}, two_genes: {'Harry'}, have_trait: {'Harry', 'James'}
+tc15: one_gene: {'James'}, two_genes: {'Lily'}, have_trait: {'Harry', 'James'}
+tc16: one_gene: {'James'}, two_genes: {'Harry', 'Lily'}, have_trait: {'Harry', 'James'}
+tc17: one_gene: {'Lily'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc18: one_gene: {'Lily'}, two_genes: {'Harry'}, have_trait: {'Harry', 'James'}
+tc19: one_gene: {'Lily'}, two_genes: {'James'}, have_trait: {'Harry', 'James'}
+tc20: one_gene: {'Lily'}, two_genes: {'Harry', 'James'}, have_trait: {'Harry', 'James'}
+tc21: one_gene: {'Harry', 'James'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc22: one_gene: {'Harry', 'James'}, two_genes: {'Lily'}, have_trait: {'Harry', 'James'}
+tc23: one_gene: {'Harry', 'Lily'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc24: one_gene: {'Harry', 'Lily'}, two_genes: {'James'}, have_trait: {'Harry', 'James'}
+tc25: one_gene: {'James', 'Lily'}, two_genes: set(), have_trait: {'Harry', 'James'}
+tc26: one_gene: {'James', 'Lily'}, two_genes: {'Harry'}, have_trait: {'Harry', 'James'}
+tc27: one_gene: {'Harry', 'James', 'Lily'}, two_genes: set(), have_trait: {'Harry', 'James'}
+
+Process finished with exit code 0
